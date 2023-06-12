@@ -1,34 +1,83 @@
 .container {
-    position: relative;
-  }
-  
-  .container img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .headertext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 250px;
-    font-weight: bold;
-  }
-  
-  .button {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px 40px;
-    border: 2px solid #ffffff;
-    background-color: transparent;
-    border-radius: 15%;
-    color: white;
-    font-size: 100px;
-    cursor: pointer;
-  }
-  
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.headerText {
+  position: absolute;
+  top: 250px;
+  left: 900px;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 100px;
+  text-align: center;
+}
+
+.lpbutton {
+  position: absolute;
+  top: 500px;
+  left: 900px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.imageRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.frontArticle {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 40px 50px 80px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 100;
+   
+    
+}
+
+.frontArticle img {
+  width: 100%;
+}
+
+.articleHeader {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.frontArticle p {
+  font-size: 40px;
+  margin-top: 10px; 
+}
+
+.dateText {
+  color: black;
+  font-size: 18px;
+  font-weight: bold; 
+}
+
+a {
+  color: black;
+  text-decoration: none; 
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
