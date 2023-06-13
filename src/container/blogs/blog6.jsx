@@ -9,7 +9,7 @@ const blog6 = () => {
         
     <div className="infoBox">
     <div className="articleInfo">
-        <h1>Experience the Thrill of Live Music:<br></br>
+        <h1 className="articleTitle">Experience the Thrill of Live Music:<br></br>
         Join Us for the BCHATO Music Fest!</h1>
 
         <p className="dateText">June 24, 2023 | Event by BCSPA </p> 

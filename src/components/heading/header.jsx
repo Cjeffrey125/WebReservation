@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import "../heading/header.css";
 import images from '../../constant/images';
+import "../heading/header.css";
 
 const Header = () => {
   return (
@@ -27,11 +27,11 @@ const Header = () => {
             <Link to="/events" className="navLink">Tickets</Link>
           </li>
           <li className="navItem">
-            <Link to="/blogs" className="navLink">Contact Us</Link>
+            <Link to="/contact-us" className="navLink">Contact Us</Link>
           </li>
 
           <li className="loginContainer">
-            <Link to="/blogs" className="navLink"><img src={images.LoginIcon} alt="Login Icon" /></Link>
+            <Link to="/welcome" className="navLink"><img src={images.LoginIcon} alt="Login Icon" /></Link>
           </li>
         </ul>
       </nav>

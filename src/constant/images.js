@@ -11,7 +11,12 @@ import event_3 from "../assets/event3.png";
 import event_4 from "../assets/event4.png";
 import searcIcon from "../assets/searchIcon.png";
 import LoginIcon from "../assets/loginIcon.png";
-
+import login from "../assets/login.png";
+import signup from "../assets/signup.png";
+import email from "../assets/email.png";
+import password from "../assets/password.png";
+import ticketicon from "../assets/ticketIcon.png";
+import contacticon from "../assets/contacticon.png"
 
   export default {
     frontimage,
@@ -26,6 +31,12 @@ import LoginIcon from "../assets/loginIcon.png";
     event_3,
     event_4,
     searcIcon,
-    LoginIcon
+    LoginIcon,
+    login,
+    signup,
+    email,
+    password,
+    ticketicon,
+    contacticon
 
   };

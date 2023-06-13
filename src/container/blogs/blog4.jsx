@@ -9,7 +9,7 @@ const blog4 = () => {
         
     <div className="infoBox">
     <div className="articleInfo">
-        <h1>Get Ready to Dance the Night Away<br></br>
+        <h1 className="articleTitle">Get Ready to Dance the Night Away<br></br>
             at the BCHATO Music Festival!</h1>
 
         <p className="dateText">June 21, 2023 | Event by BCSPA </p> 

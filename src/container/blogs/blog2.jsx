@@ -9,7 +9,7 @@ const blog2 = () => {
 
     <div className="infoBox">    
     <div className="articleInfo">
-        <h1>Experience the Rhythm and Energy of BCHATO's<br></br> 
+        <h1 className="articleTitle">Experience the Rhythm and Energy of BCHATO's<br></br> 
         International Music Showcase!</h1>
 
         <p className="dateText">March 20, 2023 | Event by BCHATO </p> 
